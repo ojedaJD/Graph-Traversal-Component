@@ -1,0 +1,12 @@
+package GraphTraversalComponent.src.com.example.graph;
+
+import java.util.List;
+
+public interface GraphTraversalKernel<T> {
+    void addNode(T node);
+    void addEdge(T from, T to);
+    List<T> getNodes();
+    List<T> getEdges(T node);
+    List<T> traverseDFS(T start);
+    List<T> traverseBFS(T start);
+}
