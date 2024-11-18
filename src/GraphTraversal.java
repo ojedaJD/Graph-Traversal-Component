@@ -1,4 +1,4 @@
-package GraphTraversalComponent.src.com.example.graph;
+package GraphTraversalComponent.src;
 
 import java.util.ArrayList;
 import java.util.HashMap;
